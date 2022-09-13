@@ -9,6 +9,16 @@ import Foundation
 
 let title = "This is title"
 
+print(title)
+
+print(3)
+print("Ahoj")
+
+let numberOfVacationDaysLeft = 3
+
+let text = "I have \(numberOfVacationDaysLeft) number of vacation days still left."
+print(text)
+
 // TITLE: title
 
 /*

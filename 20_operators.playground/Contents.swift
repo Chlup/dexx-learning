@@ -5,13 +5,40 @@ import Foundation
 // Numberical: +, -, /, *, %
 // Logical: &&, ||
 
-let count = (5 + 3) * 2
-let isTrue = true || false
+let count: Int = (5 + 3) * 2
+let isTrue: Bool = (true || false)
+
+print(count)
+print(isTrue)
+
+let number1: Int = 5
+let number2: Int = 3
+let number3: Int = 2
+
+let count2: Int = (number1 + number2) * number3
+
+// Celociselen deleni kdyz mam celociselne typy
+
+let num1: Int = 7
+let num2: Int = 2
+
+print(num1 / num2)
+
+// Klasicke deleni kdyz mam FLoat Double
+
+let num3: Float = 7
+let num4: Float = 2
+
+print(num3 / num4)
+
+
+print(count2)
+
 
 //true && true -> true
 //true && false -> false
-//true || false -> true
 //false && false -> false
+//true || false -> true
 //false || false -> false
 
 // Operace modulo - zbytek po celociselnem deleni
@@ -34,3 +61,8 @@ let isTrue = true || false
 
  Print out result of a + b.
  */
+
+let a: Int = 3
+let b: Int = 4
+
+print(a + b)
